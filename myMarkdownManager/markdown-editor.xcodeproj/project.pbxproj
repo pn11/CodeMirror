@@ -1,0 +1,78 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		4F8C475C1CFB70E70018F5EA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4F8C475D1CFB71AB0018F5EA /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		4F8C47601CFB7A590018F5EA /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		4F8C47611CFB7B1D0018F5EA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4F8C47551CFB6C350018F5EA = {
+			isa = PBXGroup;
+			children = (
+				4F8C47611CFB7B1D0018F5EA /* README.md */,
+				4F8C475C1CFB70E70018F5EA /* .gitignore */,
+				4F8C475D1CFB71AB0018F5EA /* index.html */,
+				4F8C47601CFB7A590018F5EA /* js */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		4F8C47561CFB6C350018F5EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 4F8C47591CFB6C350018F5EA /* Build configuration list for PBXProject "markdown-editor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4F8C47551CFB6C350018F5EA;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		4F8C475A1CFB6C350018F5EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4F8C475B1CFB6C350018F5EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F8C47591CFB6C350018F5EA /* Build configuration list for PBXProject "markdown-editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8C475A1CFB6C350018F5EA /* Debug */,
+				4F8C475B1CFB6C350018F5EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F8C47561CFB6C350018F5EA /* Project object */;
+}
