@@ -9,8 +9,8 @@
 /* Begin PBXFileReference section */
 		4F8C475C1CFB70E70018F5EA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		4F8C475D1CFB71AB0018F5EA /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		4F8C47601CFB7A590018F5EA /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
 		4F8C47611CFB7B1D0018F5EA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4F9629071CFC7256005A23A6 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -20,7 +20,7 @@
 				4F8C47611CFB7B1D0018F5EA /* README.md */,
 				4F8C475C1CFB70E70018F5EA /* .gitignore */,
 				4F8C475D1CFB71AB0018F5EA /* index.html */,
-				4F8C47601CFB7A590018F5EA /* js */,
+				4F9629071CFC7256005A23A6 /* js */,
 			);
 			sourceTree = "<group>";
 		};
