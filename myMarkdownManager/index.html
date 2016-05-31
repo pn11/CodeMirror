@@ -22,6 +22,7 @@
         <!-- My js src from here -->
         <script src="js/constructTextArea.js"></script>
         <script src="js/getText.js"></script>
+        <script src="js/fileIO.js"></script>
     </head>
     <body>
         <div id=nav>
@@ -36,19 +37,24 @@
             </ul>
         </div>
         <article>
-            <h2>Code Folding Demo</h2>
+            <h2>Markdown Editor</h2>
+            <form name="filename_form">
+                <input type="text" name="filename" size="20" maxlength="15" value="Input filename here." />
+                <input type="button" value="Open" onclick="readFile();" />
+            </form>
+
             <form>
-                <div style="max-width: 50em">Display File name here:<br>
+                <div style="max-width: 50em"><br>
                     <textarea id="code-markdown" name="code"></textarea>
                 </div>
+                <script>constructTextArea();</script>
             </form>
-            <script>constructTextArea();</script>
-            <button onclick="getText();"> <!-- http://jsdo.it/elk/mLik -->
-                GetText
+            
+            <button onclick="writeToFile('test.md', getText());">
+                Save
             </button>
-            <div>
-                <span id="output"></span>
-            </div>
+            <div id=log></div>
+            
         </article>
     </body>
 </html>
